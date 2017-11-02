@@ -1,0 +1,12 @@
+{
+    "name": "expfactory_attention_network_task",
+    "alt_name": "ANT (attentional network task)",
+    "description": "On each trial a spatial cue is following by an array of five stimuli presented at either the top of the bottom of the screen. The subject must indicate the direction of the central arrow in the array of 5. The cue that precedes the arrows can either be non-existent, a center cue, a double cue (one presented at each of the two possible target locations), or a spatial cue that deterministically indicates the upcoming target location.The ANT is a task designed to test three attentional networks: alerting, orienting, and executive control.",
+    "version": "1.0.1",
+    "repository": {"type": "git", "url": "https://github.com/exprxiv/expfactory_attention_network_task.git"}, 
+    "contributors": ["Ian Eisenberg", "Zeynep Enkavi", "Patrick Bissett", "Vanessa Sochat", "Teon L Brooks", "Russell Poldrack"],
+    "duration": "20",
+    "engine": {"front-end": "jspsych"},
+    "ontology": [ {"convention": "Cognitive Atlas", "term": "trm_551f0857e1db8"} ],
+    "reference": "http://www.mitpressjournals.org/doi/pdf/10.1162/089892902317361886"
+}
